@@ -18,3 +18,8 @@ Each day’s folder contains:
 
 🌐 [Run online at Replit](https://replit.com/)  
 🖥️ **Sample Output:**
+enter two numbers
+5 7
+12
+
+---
