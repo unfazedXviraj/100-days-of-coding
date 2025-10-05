@@ -2,10 +2,8 @@
 
 int main() {
     int month;
-
     printf("Enter month number (1-12): ");
     scanf("%d", &month);
-
     switch(month) {
         case 1:
             printf("January - 31 days\n");
@@ -46,6 +44,5 @@ int main() {
         default:
             printf("Invalid month number! Please enter 1–12.\n");
     }
-
     return 0;
 }
