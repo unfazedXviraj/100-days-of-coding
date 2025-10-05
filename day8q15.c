@@ -1,11 +1,8 @@
 #include <stdio.h>
-
 int main() {
     char ch;
-
     printf("Enter a character: ");
     scanf("%c", &ch);
-
     if (ch >= 'A' && ch <= 'Z')
     {
         printf("%c is an Uppercase Alphabet\n", ch);
@@ -22,6 +19,5 @@ int main() {
     {
         printf("%c is a Special Character.\n", ch);
     }
-
     return 0;
 }
