@@ -1,5 +1,4 @@
 #include <stdio.h>
-
 int main()
 {
     int n, i,product;
@@ -9,7 +8,6 @@ int main()
     {
         product *= i;
     }
-
     if
     {
         printf("The product of even numbers from 1 to %d is: %lld\n", n, product);
@@ -18,6 +16,5 @@ int main()
     {
         printf("No even numbers in the range 1 to %d.\n", n);
     }
-
     return 0;
 }
