@@ -1,16 +1,12 @@
 #include <stdio.h>
-
 int main() {
     int n;
-    
     printf("Enter the value of n: ");
-    scanf("%d", &n);
-    
+    scanf("%d", &n);    
     if (n < 2) {
         printf("There are no prime numbers between 1 and %d\n", n);
         return 0;
     }
-    
     printf("Prime numbers between 1 and %d are:\n", n);
     if (n >= 2) {
         printf("2 ");
@@ -22,14 +18,11 @@ int main() {
                 isPrime = 0;
                 break;
             }
-        }
-        
+        }   
         if (isPrime) {
             printf("%d ", i);
         }
-    }
-    
-    printf("\n");
-    
+    } 
+    printf("\n");  
     return 0;
 }
