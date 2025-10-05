@@ -1,5 +1,4 @@
 #include <stdio.h>
-
 int main() {
     int n, i;
     int arr[100];
@@ -18,6 +17,5 @@ int main() {
     }
     printf("Total even numbers = %d\n", evenCount);
     printf("Total odd numbers  = %d\n", oddCount);
-
     return 0;
 }
