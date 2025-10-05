@@ -1,16 +1,12 @@
 #include <stdio.h>
-
 int main() {
     int n, i, largest, second_largest;
-
     printf("Enter number of elements: ");
     scanf("%d", &n);
-
     if (n < 2) {
         printf("Array must have at least 2 elements.\n");
         return 1;
     }
-
     int arr[100];
     printf("Enter %d elements: ", n);
     for (i = 0; i < n; i++) {
@@ -31,8 +27,6 @@ int main() {
             second_largest = arr[i];
         }
     }
-
     printf("Second largest element: %d\n", second_largest);
-
     return 0;
 }
