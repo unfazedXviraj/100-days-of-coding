@@ -1,5 +1,4 @@
 #include <stdio.h>
-
 int main() {
     int n;
     printf("Enter the size of the array: ");
@@ -15,6 +14,5 @@ int main() {
         printf("%d ", arr[i]);
     }
     printf("\n");
-    
     return 0;
 }
